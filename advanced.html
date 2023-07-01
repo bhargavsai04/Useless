@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <ul class="nav">
+      <li style="float: left; font-size: 20px">Toogle</li>
+      <li><a href="index.html">Back to Search</a></li>
+      <br />
+    </ul>
+    <div>
+      <td><h3 id="dd">Advanced Search</h3></td>
+      <hr />
+      <div>
+        <form action="https://google.com/search">
+          <table class="txt">
+            <thead>
+              <tr>
+                <td>Find pages with...</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>all these words:</td>
+                <td><input type="text" name="as_q" class="searchbar-q" /></td>
+              </tr>
+              <tr>
+                <td>this exact word or phrase:</td>
+                <td><input type="text" name="as_epq" class="searchbar-q" /></td>
+              </tr>
+              <tr>
+                <td>any of these words:</td>
+                <td><input type="text" name="as_oq" class="searchbar-q" /></td>
+              </tr>
+              <tr>
+                <td>none of these words:</td>
+                <td><input type="text" name="as_eq" class="searchbar-q" /></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <input
+                    type="submit"
+                    value="Advanced Search"
+                    class="searchbutton"
+                  />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
